@@ -1,0 +1,8 @@
+Model Information:
+* title:	Franky
+* source:	https://sketchfab.com/3d-models/franky-f1a6af42f0ce4f6b9385691fa4f62e11
+* author:	Tigerar1 (https://sketchfab.com/allanromanreyes)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

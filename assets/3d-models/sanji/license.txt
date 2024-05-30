@@ -1,0 +1,8 @@
+Model Information:
+* title:	Sanji
+* source:	https://sketchfab.com/3d-models/sanji-e41fdd0d99384a26bee66d97e2d266c0
+* author:	Tigerar1 (https://sketchfab.com/allanromanreyes)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

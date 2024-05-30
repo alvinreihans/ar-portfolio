@@ -1,0 +1,8 @@
+Model Information:
+* title:	Brook
+* source:	https://sketchfab.com/3d-models/brook-56c66d353a9f461bbd539ccdefb94c66
+* author:	Tigerar1 (https://sketchfab.com/allanromanreyes)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

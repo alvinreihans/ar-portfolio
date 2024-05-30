@@ -1,0 +1,8 @@
+Model Information:
+* title:	Nami
+* source:	https://sketchfab.com/3d-models/nami-2c4e37fabf0b424882efd69d047961ad
+* author:	Tigerar1 (https://sketchfab.com/allanromanreyes)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

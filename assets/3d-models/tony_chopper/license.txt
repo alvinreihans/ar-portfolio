@@ -1,0 +1,8 @@
+Model Information:
+* title:	Tony Chopper
+* source:	https://sketchfab.com/3d-models/tony-chopper-2619979aa9144373bd894685db999bda
+* author:	Tigerar1 (https://sketchfab.com/allanromanreyes)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

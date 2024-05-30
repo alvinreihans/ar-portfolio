@@ -1,0 +1,8 @@
+Model Information:
+* title:	Roronoa Zoro
+* source:	https://sketchfab.com/3d-models/roronoa-zoro-a9886315d2ae4c12b2a716543ca7754b
+* author:	Tigerar1 (https://sketchfab.com/allanromanreyes)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
