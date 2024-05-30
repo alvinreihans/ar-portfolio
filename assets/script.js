@@ -1,6 +1,6 @@
 const splashScreen = document.getElementById('splashscreen');
 const splashscreenlogo = document.getElementById('splashscreen-logo');
-if (!localStorage.getItem('splashShown')) {
+if (!sessionStorage.getItem('splashShown')) {
   function splashOnLoad() {
     setTimeout(function () {
       splashscreenlogo.classList.add('show');
@@ -11,7 +11,7 @@ if (!localStorage.getItem('splashShown')) {
     }, 3000);
     setTimeout(function () {
       splashScreen.remove();
-      localStorage.setItem('splashShown', 'true');
+      sessionStorage.setItem('splashShown', 'true');
     }, 3800);
   }
 } else {
