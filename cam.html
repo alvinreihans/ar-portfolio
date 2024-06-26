@@ -10,7 +10,7 @@
   </head>
   <body>
     <a-scene
-      mindar-image="imageTargetSrc: ./assets/onepiece.mind; maxTrack: 10"
+      mindar-image="imageTargetSrc: ./assets/alvinreihans.mind; maxTrack: 1"
       color-space="sRGB"
       renderer="colorManagement: true, physicallyCorrectLights"
       vr-mode-ui="enabled: false"
@@ -21,11 +21,33 @@
         <!-- <img id="buddy-robCard" src="./marker/AR Tracking Card-JPG/buddy-rob.jpg"></img> -->
         <a-asset-item
           id="monkey_d_luffy"
-          src="./assets/3d-models/monkey_d_luffy/scene.gltf"
-        ></a-asset-item>
+          src="./assets/3d-models/monkey_d_luffy_pose/scene.gltf"
+        >
+        </a-asset-item>
         <a-asset-item
           id="roronoa_zoro"
-          src="./assets/3d-models/roronoa_zoro/scene.gltf"
+          src="./assets/3d-models/roronoa_zoro_pose/scene.gltf"
+        >
+        </a-asset-item>
+        <a-asset-item
+          id="sanji"
+          src="./assets/3d-models/sanji_animated/scene.gltf"
+        >
+        </a-asset-item>
+        <a-asset-item
+          id="reiju"
+          src="./assets/3d-models/reiju_animated/scene.gltf"
+        >
+        </a-asset-item>
+        <a-asset-item id="ace" src="./assets/3d-models/ace_animated/scene.gltf">
+        </a-asset-item>
+        <a-asset-item
+          id="nami"
+          src="./assets/3d-models/nami/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="nico_robin"
+          src="./assets/3d-models/nico_robin/scene.gltf"
         ></a-asset-item>
         <a-asset-item
           id="brook"
@@ -36,37 +58,21 @@
           src="./assets/3d-models/franky/scene.gltf"
         ></a-asset-item>
         <a-asset-item
-          id="nami"
-          src="./assets/3d-models/nami/scene.gltf"
-        ></a-asset-item>
-        <a-asset-item
-          id="mera_mera_no_mi"
-          src="./assets/3d-models/mera_mera_no_mi/scene.gltf"
-        ></a-asset-item>
-        <a-asset-item
-          id="sanji"
-          src="./assets/3d-models/sanji/scene.gltf"
-        ></a-asset-item>
-        <a-asset-item
           id="shanks"
           src="./assets/3d-models/shanks/scene.gltf"
         ></a-asset-item>
         <a-asset-item
           id="tony_chopper"
-          src="./assets/3d-models/tony_chopper/scene.gltf"
-        ></a-asset-item>
-        <a-asset-item
-          id="nico_robin"
-          src="./assets/3d-models/nico_robin/scene.gltf"
+          src="./assets/3d-models/tony_chopper_pose/scene.gltf"
         ></a-asset-item>
       </a-assets>
 
       <a-entity mindar-image-target="targetIndex: 0">
         <a-gltf-model
           src="#monkey_d_luffy"
-          rotation="0 0 0"
-          position="0 -1.2 0"
-          scale="0.01 0.01 0.01"
+          rotation="0 60 0"
+          position="0 0 0"
+          scale="10 10 10"
           animation-mixer
         ></a-gltf-model>
       </a-entity>
@@ -83,25 +89,35 @@
 
       <a-entity mindar-image-target="targetIndex: 2">
         <a-gltf-model
-          src="#brook"
+          src="#sanji"
           rotation="0 0 0"
-          position="0 -1.5 0"
-          scale="0.01 0.01 0.01"
+          position="0 -1.2 0"
+          scale="0.8 0.8 0.8"
           animation-mixer
         ></a-gltf-model>
       </a-entity>
 
       <a-entity mindar-image-target="targetIndex: 3">
         <a-gltf-model
-          src="#franky"
+          src="#reiju"
           rotation="0 0 0"
-          position="0 -1.2 0"
-          scale="0.01 0.01 0.01"
+          position="0 -1.5 0"
+          scale="1 1 1"
           animation-mixer
         ></a-gltf-model>
       </a-entity>
 
       <a-entity mindar-image-target="targetIndex: 4">
+        <a-gltf-model
+          src="#ace"
+          rotation="0 0 0"
+          position="0 -1.5 0"
+          scale="1 1 1"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 5">
         <a-gltf-model
           src="#nami"
           rotation="0 0 0"
@@ -111,7 +127,7 @@
         ></a-gltf-model>
       </a-entity>
 
-      <a-entity mindar-image-target="targetIndex: 5">
+      <a-entity mindar-image-target="targetIndex: 6">
         <a-gltf-model
           src="#nico_robin"
           rotation="0 0 0"
@@ -121,9 +137,19 @@
         ></a-gltf-model>
       </a-entity>
 
-      <a-entity mindar-image-target="targetIndex: 6">
+      <a-entity mindar-image-target="targetIndex: 7">
         <a-gltf-model
-          src="#sanji"
+          src="#brook"
+          rotation="0 0 0"
+          position="0 -1.5 0"
+          scale="0.01 0.01 0.01"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 8">
+        <a-gltf-model
+          src="#franky"
           rotation="0 0 0"
           position="0 -1.2 0"
           scale="0.01 0.01 0.01"
@@ -131,7 +157,7 @@
         ></a-gltf-model>
       </a-entity>
 
-      <a-entity mindar-image-target="targetIndex: 7">
+      <a-entity mindar-image-target="targetIndex: 9">
         <a-gltf-model
           src="#shanks"
           rotation="0 0 0"
@@ -141,22 +167,12 @@
         ></a-gltf-model>
       </a-entity>
 
-      <a-entity mindar-image-target="targetIndex: 8">
+      <a-entity mindar-image-target="targetIndex: 10">
         <a-gltf-model
           src="#tony_chopper"
           rotation="0 0 0"
           position="0 -0.7 0"
-          scale="0.01 0.01 0.01"
-          animation-mixer
-        ></a-gltf-model>
-      </a-entity>
-
-      <a-entity mindar-image-target="targetIndex: 9">
-        <a-gltf-model
-          src="#mera_mera_no_mi"
-          rotation="0 0 0"
-          position="0 0 0"
-          scale="0.3 0.3 0.3"
+          scale="1 1 1"
           animation-mixer
         ></a-gltf-model>
       </a-entity>

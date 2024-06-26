@@ -1,0 +1,11 @@
+Model Information:
+* title:	Reiju
+* source:	https://sketchfab.com/3d-models/reiju-69c743c380a84e168e74d274c3de9dd0
+* author:	LorisC93 (https://sketchfab.com/lorisc93)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Reiju" (https://sketchfab.com/3d-models/reiju-69c743c380a84e168e74d274c3de9dd0) by LorisC93 (https://sketchfab.com/lorisc93) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

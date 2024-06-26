@@ -1,0 +1,11 @@
+Model Information:
+* title:	Roronoa
+* source:	https://sketchfab.com/3d-models/roronoa-d19ff4b6b1954228b68d2dc608ec6817
+* author:	mateusbmarcelino (https://sketchfab.com/mateusbmarcelino)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Roronoa" (https://sketchfab.com/3d-models/roronoa-d19ff4b6b1954228b68d2dc608ec6817) by mateusbmarcelino (https://sketchfab.com/mateusbmarcelino) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
