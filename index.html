@@ -14,26 +14,14 @@
     <header>
       <h2>Alvinreihans' AR Portfolio</h2>
     </header>
-    <main>
-      <p id="about">
-        Welcome to my portfolio! Here, you'll find a showcase of my augmented
-        reality project, the culmination of my studies in AR at Lampung
-        University. Augmented reality (AR) is a technology that overlays digital
-        information onto the real world, enhancing our perception of reality. In
-        this project, I've explored the potential of AR to create immersive and
-        interactive experiences. Dive into this project to see how I've applied
-        AR technology and the skills I've developed during my academic journey.
-        Thank you for taking the time to explore this significant piece of my
-        educational experience.
-      </p>
-      <div class="app-container">
-        <a href="./guide.html">Guide</a>
-        <a
-          href="https://github.com/alvinreihans/ar-portfolio/tree/main/assets/marker/"
-          >Download marker</a
-        >
-        <a href="./cam.html">AR camera</a>
-      </div>
+    <main class="app-container">
+      <a href="./about.html">About</a>
+      <a href="./guide.html">Guide</a>
+      <a
+        href="https://github.com/alvinreihans/ar-portfolio/tree/main/assets/marker/"
+        >Download marker</a
+      >
+      <a href="./cam.html">AR camera</a>
     </main>
     <footer>
       <hr />
@@ -42,6 +30,20 @@
         <a href="http://alvinreihans.github.io/">github.</a>
       </p>
     </footer>
-    <script src="./assets/script.js"></script>
+    <script>
+      const splashScreen = document.getElementById('splashscreen');
+      const splashscreenlogo = document.getElementById('splashscreen-logo');
+      function splashOnLoad() {
+        setTimeout(function () {
+          splashscreenlogo.classList.add('show');
+        }, 100);
+        setTimeout(function () {
+          splashScreen.classList.add('hidden');
+        }, 2000);
+        setTimeout(function () {
+          splashScreen.remove();
+        }, 2800);
+      }
+    </script>
   </body>
 </html>
