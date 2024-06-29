@@ -7,8 +7,22 @@
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+    <style>
+      .back-btn {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 4;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+      }
+    </style>
   </head>
   <body>
+    <a href="index.html">
+      <img class="back-btn" src="./assets/img/back-button.png"
+    /></a>
     <a-scene
       mindar-image="imageTargetSrc: ./assets/onepiece.mind; maxTrack: 1"
       color-space="sRGB"
