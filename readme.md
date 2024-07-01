@@ -15,7 +15,7 @@ Terima kasih telah meluangkan waktu untuk menjelajahi bagian penting dari pengal
 ## QR Code
 Scan QR code berikut untuk mengakses portofolio AR saya:
 
-![QR Code](./assets/img/qr-code.png)
+<img src="./assets/img/qr-code.png" alt="QR Code" width="300" height="300">
 
 ---
 
