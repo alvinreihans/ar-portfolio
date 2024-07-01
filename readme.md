@@ -17,6 +17,10 @@ Scan QR code berikut untuk mengakses portofolio AR saya:
 
 <img src="./assets/img/qr-code.png" alt="QR Code" width="450" height="450">
 
+## Video Tutorial
+Berikut adalah video tutorial untuk menggunakan AR Camera di website saya:
+[Video Tutorial](https://youtu.be/C5wB_OyJogw)
+
 ---
 
 Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi saya.
